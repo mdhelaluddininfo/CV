@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:#fff0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*Container start here*/
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: rgb(210, 231, 241);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgpa(0,0,0,0,.1);
+}
+
+/*Left site start*/
+
+.container .left-site{
+    position: relative;
+    padding: 40px;
+    background: #73C6B6;
+    
+}
+.left-site .profile-image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    
+}
+.left-site .profile-image img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.left-site .profile-text h1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    border-bottom: 2px solid rgba(26, 23, 23, 0.2);
+    color: white;
+}
+.contract-info{
+    padding-top: 13px;
+    
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contract-info ul{
+    position: relative;
+    
+}
+.contract-info ul li{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    margin: 10px 0 ;
+    
+}
+.contract-info ul li .icon{
+   display: inline-flex;
+   width: 30px;
+   font-size: 18px;
+   color: white;
+
+    
+    
+}
+
+.contract-info ul li .text{
+    display: inline-flex;
+    width: 30px;
+    color: rgb(8, 6, 6);
+    padding-left:0;
+    
+    
+}
+.education-info{
+    padding-top: 13px;
+}
+.education-info ul li{
+    color: rgb(14, 11, 11);
+    list-style: none;
+    padding: 8px;
+    margin: 10px 0;
+    line-height: 1.3;
+}
+.Technical-Skill{
+    color: rgb(5, 2, 2);
+}
+
+
+.Technical-Skill ul li {
+    list-style: none;
+    line-height: 1.3S;
+}
+
+/*Left site End*/
+
+
+
+
+/*Right site start*/
+
+.container .right-site{
+    position: relative;
+    padding: 40px;
+    background:white;
+    
+}
+
+.expericence h3{
+    background-color: #73C6B6;
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-top: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+.expericence h4,p{
+    
+    padding: 5px 0 5px 10px;
+}
+.duties ul li{
+    list-style: none;
+    padding: 5px 0 5px 10px;
+    
+}
+.Tranning-Summary1 h3{
+    background-color: #73C6B6;
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-top: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+.Tranning-Summary1 p{
+    padding: 5px 0 5px 10px;
+    line-height: 1.3;
+}
+
+.Tranning-Summary2 h3{
+    background-color: #73C6B6;
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-top: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+.Tranning-Summary2 p{
+    padding: 5px 0 5px 10px;
+    line-height: 1.3;
+}
+
+/*Right site End*/
+
+
+
+/*Container End here*/
+
